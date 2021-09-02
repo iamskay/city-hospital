@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Hospital</title>
+    <!-- font link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom px-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-heartbeat"></i> City Hospital.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active navbar-custom"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom" href="#doctors">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom" href="#book">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom" href="#review">Review</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header ends here -->
+
+    <!-- Home Section Starts Here -->
+    <section
+      class="
+        pt-5
+        px-3
+        mb-4
+        d-lg-flex
+        flex-lg-row
+        d-md-flex
+        flex-md-row
+        d-sm-flex
+        flex-sm-column
+        order-1
+      "
+    >
+      <div class="home" id="home">
+        <img src="images/Medicine.gif" class="img" alt="" />
+      </div>
+      <div class="content">
+        <h3>
+          Stay Safe,<br />
+          stay healthy
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure velit
+          voluptatem aperiam. Laborum laboriosam dicta magni temporibus
+          repudiandae recusandae suscipit at eos.
+        </p>
+        <a href="#" class="btnn">
+          contact us <span class="fas fa-chevron-right"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Home Section Ends Here -->
+
+    <!-- Icon Section Starts Here -->
+    <section class="features">
+      <div class="row">
+        <div class="features-box col-lg-3 col-md-4 custom-icon">
+          <i class="fas fa-user-md"></i>
+          <h3>140+</h3>
+          <p>doctors at work</p>
+        </div>
+        <div class="features-box col-lg-3 col-md-4 custom-icon">
+          <i class="fas fa-users"></i>
+          <h3>1489+</h3>
+          <p>satistfied patients</p>
+        </div>
+        <div class="features-box col-lg-3 col-md-4 custom-icon">
+          <i class="fas fa-procedures"></i>
+          <h3>500+</h3>
+          <p>bed facility</p>
+        </div>
+        <div class="features-box col-lg-3 col-md-4 custom-icon">
+          <i class="fas fa-hospital"></i>
+          <h3>80+</h3>
+          <p>available hospitals</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Icon Section Ends Here -->
+
+    <!-- Service Section Starts here -->
+    <section class="services" id="services">
+      <h1 class="heading">our <span>services</span></h1>
+      <div class="row mx-5" id="row">
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <i class="fas fa-notes-medical"></i>
+          <h3>free checkups</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.
+          </p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <i class="fas fa-ambulance"></i>
+          <h3>24/7 ambulance</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <i class="fas fa-user-md"></i>
+          <h3>expert doctors</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.
+          </p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <i class="fas fa-pills"></i>
+          <h3>medicines</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.
+          </p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <i class="fas fa-procedures"></i>
+          <h3>bed facility</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.
+          </p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <i class="fas fa-heartbeat"></i>
+          <h3>total care</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.
+          </p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section Ends Here -->
+
+    <!-- About Us Starts here -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <section
+        class="
+          pt-1
+          px-3
+          mb-4
+          d-lg-flex
+          flex-lg-row
+          d-md-flex
+          flex-md-row
+          d-sm-flex
+          flex-sm-column
+          order-1
+        "
+      >
+        <div class="home" id="home">
+          <img src="images/about.gif" class="img" alt="" />
+        </div>
+        <div class="content">
+          <h3>
+            we take care <br />
+            of your healthy life
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+            ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit
+            tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero
+            ipsam laborum porro voluptates voluptatibus a nihil temporibus
+            deserunt vel?
+          </p>
+          <a href="#" class="btnn">
+            learn more <span class="fas fa-chevron-right"></span>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- About Us Ends here -->
+
+    <!-- Doctors Section Starts here -->
+    <section class="doctors" id="doctors">
+      <h1 class="heading">our <span>doctors</span></h1>
+      <div class="row mx-5" id="row">
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <img src="images/doc-1.jpg" class="img" alt="" />
+          <h3>ariana deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <img src="images/doc-2.jpg" alt="" />
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <img src="images/doc-3.jpg" alt="" />
+          <h3>noman</h3>
+          <span>expert doctor</span>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <img src="images/doc-4.jpg" alt="" />
+          <h3>paul</h3>
+          <span>expert doctor</span>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <img src="images/doc-5.jpg" alt="" />
+          <h3>brad</h3>
+          <span>expert doctor</span>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="features-box col-lg-4 col-md-4 mx-3 custom-icon" id="box">
+          <img src="images/doc-6.jpg" alt="" />
+          <h3>johnson </h3>
+          <span>expert doctor</span>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctors Section Ends here -->
+
+    <!-- booking section starts   -->
+
+    <section class="book" id="book">
+      <h1 class="heading"><span>book</span> now</h1>
+
+      <section
+        class="
+          pt-1
+          px-3
+          mb-5
+          d-lg-flex
+          flex-lg-row
+          d-md-flex
+          flex-md-row
+          d-sm-flex
+          flex-sm-column
+          order-1
+        "
+      >
+        <div class="home" id="home">
+          <img src="images/book.gif" class="img" alt="" />
+        </div>
+        <form action="">
+          <h3>book appointment</h3>
+          <input type="text" placeholder="Your Name" class="box" />
+          <input type="number" placeholder="Your Mobile Number" class="box" />
+          <input type="email" placeholder="Your Email" class="box" />
+          <input type="date" class="box" />
+          <input type="submit" value="Book Now" class="btn" />
+        </form>
+      </section>
+    </section>
+
+    <!-- booking section ends here   -->
+
+    <!-- review section starts here -->
+
+    <section class="review" id="review">
+      <h1 class="heading">client's <span>review</span></h1>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="row mx-5" id="row">
+              <div
+                class="features-box col-lg-4 col-md-4 mx-3 custom-icon"
+                id="box"
+              >
+                <img src="images/pic-1.png" class="img" alt="" />
+                <h3>roman</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
+                  perspiciatis libero nobis rem numquam nesciunt alias sapiente
+                  minus voluptatem, reiciendis consequuntur optio dolorem!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row mx-5" id="row">
+              <div
+                class="features-box col-lg-4 col-md-4 mx-3 custom-icon"
+                id="box"
+              >
+                <img src="images/pic-2.png" class="img" alt="" />
+                <h3>hinata</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
+                  perspiciatis libero nobis rem numquam nesciunt alias sapiente
+                  minus voluptatem, reiciendis consequuntur optio dolorem!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row mx-5" id="row">
+              <div
+                class="features-box col-lg-4 col-md-4 mx-3 custom-icon"
+                id="box"
+              >
+                <img src="images/pic-3.png" class="img" alt="" />
+                <h3>Dolph</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
+                  perspiciatis libero nobis rem numquam nesciunt alias sapiente
+                  minus voluptatem, reiciendis consequuntur optio dolorem!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- review section ends here  -->
+
+    <!-- footer starts here -->
+    <section class="footer">
+      <div class="row footer-row">
+        <div class="features-box col-lg-3 col-md-4 col-sm-6 custom-icon">
+          <div class="footer-box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="#doctors"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="#book"> <i class="fas fa-chevron-right"></i> booking </a>
+            <a href="#review"> <i class="fas fa-chevron-right"></i> review </a>
+          </div>
+        </div>
+        <div class="features-box col-lg-3 col-md-4  col-sm-6 custom-icon">
+          <div class="footer-box">
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> message therapy
+            </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
+            <a href="#">
+              <i class="fas fa-chevron-right"></i> ambulance service
+            </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Eye care </a>
+          </div>
+        </div>
+        <div class="features-box col-lg-3 col-md-4  col-sm-6   custom-icon">
+          <div class="footer-box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#">
+              <i class="fas fa-envelope"></i> shaikhanas@gmail.com
+            </a>
+            <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104
+            </a>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i> Punjab, india - 151203
+            </a>
+          </div>
+        </div>
+        <div class="features-box col-lg-3 col-md-4  col-sm-6    custom-icon">
+          <div class="footer-box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-whatsapp"></i> whatsapp </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span> s kay</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer ends here -->
+
+    <!-- Bootstrap Js Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom Js File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
